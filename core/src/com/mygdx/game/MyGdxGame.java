@@ -105,5 +105,6 @@ public class MyGdxGame extends ApplicationAdapter {
 		imgGoku.dispose();
 		imgSpiderman.dispose();
 		imgHorses.dispose();
+
 	}
 }

@@ -1,0 +1,20 @@
+
+atlas.png
+size: 512,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+goku
+  rotate: false
+  xy: 2, 70
+  size: 426, 568
+  orig: 426, 568
+  offset: 0, 0
+  index: -1
+horse_run_cycle
+  rotate: false
+  xy: 2, 2
+  size: 410, 66
+  orig: 410, 66
+  offset: 0, 0
+  index: -1
