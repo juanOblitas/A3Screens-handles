@@ -7,7 +7,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 public abstract class Pantalla implements Screen {
     protected MyGdxGame game;
     BitmapFont font;
-    int height, width;
+    private int height, width;
 
     public Pantalla(MyGdxGame game) {
         this.game = game;

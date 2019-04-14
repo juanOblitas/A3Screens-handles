@@ -59,10 +59,10 @@ class PantallaAnimacion extends Pantalla{
         game.getBatch().begin();
         //HORSE EN MOVIMIENTO
         horse=new Sprite(frame);
-        horse.setPosition(0,0);
+        horse.setPosition(getWidth()/2,30);
         horse.draw(game.getBatch());
-        font.draw(game.getBatch(),"Pantalla 2",width/2,height-10);
-        if(Gdx.input.isKeyPressed(Input.Keys.NUM_2)){
+        font.draw(game.getBatch(),"Pantalla 2",getWidth()/2,getHeight()-100);
+        if(Gdx.input.isKeyPressed(Input.Keys.S)){
             game.setScreen(game.getImagen());
         }
         game.getBatch().end();
